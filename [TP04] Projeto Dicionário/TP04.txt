@@ -1,0 +1,11 @@
+SI/ED - TP04 - Dicionário
+
+Escreve o programa Python para uma lista de pessoas identificadas pelo número de telefone,
+cujos dados são nome, endereço, cidade, estado.
+Para isto, crie um menu da aplicação com as seguintes atividades:
+1-cadastrar
+2-pesquisar
+3-alterar
+4-excluir
+5-listar (pode ser em ordem de nome?)
+9-fim
