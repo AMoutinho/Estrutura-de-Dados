@@ -1,0 +1,84 @@
+Temp = ctrl.buscarValorTemperatura()
+      print(f"Temperatura Atual: {Temp}")
+      Estado = ctrl.buscarEstadoLigadoDesligado()
+      print(f"Estado atual: {Estado}")
+      print("\n")
+
+========================
+if cmd == 1:
+     print("Ligar Ar-condicionado...")
+elif cmd == 2:
+     print("Aumentar Temperatura...")
+elif cmd == 3:
+     print("Diminuir Temperatura...")
+elif cmd == 4:
+     print("Desligar Ar-condicionado...")
+else:
+     print("ATENÇÃO: Selecione uma opção válida !") 
+
+==========
+elif opc==2: 
+       #c1.set_Dec()#
+       print("Aumentar Temp")
+    elif opc==3 
+       c1.set_Dec()
+       print("Diminuir Temp")   
+    elif opc==4:
+       print("Desligar Ar-condicionado...")
+    else:
+       print("Opção Inválida")
+
+
+
+print(MenuControle)
+
+cmd = 0
+while cmd != 4:
+cmd = int(input("Selecione uma Opção:"))
+
+
+
+
+
+
+while user != 5:
+    if user > 5:  # exceção maior
+        print("Warning: escolha um número de 1 a 5.")
+        user = int(input("Sua escolha: \n"))
+    elif user < 0:  # exceção menor
+        print("Warning: escolha um número positivo.")
+        user = int(input("Sua escolha: \n"))
+    else:  # Acionamento normal do programa:
+        if user == 1:  # Soma:
+            print("Vocẽ escolheu soma!")
+            print("Resultado da soma: \n{} + {} = {}".format(num1, num2, (num1 + num2)))
+            print(MenuControle)
+            user = int(input("Sua escolha: \n"))
+        elif user == 2:  # Multiplicação:
+            print("Você escolheu multiplicação!")
+            print("Resultado da multiplicação: \n{} x {} = {:.0f}".format(num1, num2, (num1 * num2)))
+            print(MenuControle)
+            user = int(input("Sua escolha: \n"))
+        elif user == 3:  # Maior ou menor:
+            if num1 > num2:
+                maior = num1
+                menor = num2
+                print("O maior é {} e o menor é {}.".format(maior, menor))
+                print(MenuControle)
+            elif num2 > num1:
+                maior = num2
+                menor = num1
+                print("O maior é {} e o menor é {}.".format(maior, menor))
+                print(MenuControle)
+            else:
+                print("Os dois números são idênticos.")
+                print(MenuControle)
+            user = int(input("Sua escolha: \n"))
+        elif user == 4:  # Novos números:
+            new_num1 = float(input("Novo número 1: \n"))
+            new_num2 = float(input("Novo número 2: \n"))
+            num1 = new_num1
+            num2 = new_num2
+            print(MenuControle)
+            user = int(input("Sua escolha: \n"))
+print("Opção 5: programa encerrado.")
