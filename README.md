@@ -1,4 +1,4 @@
-# <p align=center><img align="center" src="https://i.imgur.com/77SkDbP.png" height="60" width="65"/> Estrutura de Dados <img align="center" src="https://i.imgur.com/77SkDbP.png" height="60" width="65"/></p>
+# <p align=center><img align="center" src="https://i.postimg.cc/mgyQdMth/Estrutura-de-Dados-Logo.png" height="60" width="65"/> Estrutura de Dados <img align="center" src="https://i.postimg.cc/mgyQdMth/Estrutura-de-Dados-Logo.png" height="60" width="65"/></p>
 
 <p>Este repositório é destinado a exercícios propostos durante as aulas de Estrutura de Dados do curso de Sistemas para Internet da Faculdade de Tecnologia Baixada Santista Rubens Lara. A disciplina utilizava como linguagem de apoio Python.</p>
 
